@@ -14,7 +14,7 @@ header {
     align-items: center;
     border-bottom: 1px solid #000;
     background-color: #f7f7f7;
-    width: 100%;
+    max-width: 100%
 
 }
 
@@ -204,7 +204,7 @@ footer {
     }
 }
 
-@media(max-width:510px) {
+@media(max-width:300px) {
     header nav {
         display: block;
         font-size: 0.7rem;
@@ -212,5 +212,9 @@ footer {
 
     #banner {
         background-size: 100px 10px;
+    }
+
+    header {
+        width: 100vw;
     }
 }
