@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: Verdana;
@@ -14,6 +14,7 @@ header {
     align-items: center;
     border-bottom: 1px solid #000;
     background-color: #f7f7f7;
+    width: 100%;
 
 }
 
@@ -22,7 +23,7 @@ header nav {
 
 }
 
-header nav a{
+header nav a {
     text-decoration: none;
     color: #000;
     font-style: italic;
@@ -37,10 +38,11 @@ header nav a:hover {
 
 
 
-header h2{
+header h2 {
     letter-spacing: 0.1rem;
     word-spacing: 0.5rem;
 }
+
 main {
     width: 100vw;
 }
@@ -63,9 +65,10 @@ main#home-page {
     justify-content: space-between;
     align-items: center;
     position: relative;
+    min-width: 500px
 
 
- 
+
 }
 
 
@@ -79,7 +82,7 @@ footer {
     background-color: #f7f7f7;
 }
 
-.btnSlider{
+.btnSlider {
     background-color: rgba(0, 0, 0, 0.4);
     padding: 1rem;
     color: #fff;
@@ -87,7 +90,7 @@ footer {
     outline: none;
     margin: 10px;
     border: none;
-    
+
 }
 
 #load {
@@ -104,7 +107,7 @@ footer {
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-#about-page{
+#about-page {
     display: flex;
     gap: 4rem;
 }
@@ -118,11 +121,11 @@ footer {
     margin-top: 1rem;
 }
 
-#about h2{
+#about h2 {
     margin-bottom: 1rem;
 }
 
-#about p{
+#about p {
     line-height: 1.5rem;
     text-indent: 50px;
 }
@@ -136,24 +139,24 @@ footer {
 }
 
 
-#contact-page h3{
+#contact-page h3 {
     margin-top: 1rem;
     text-align: center;
 
 }
 
-#contact-page p{
+#contact-page p {
     font-size: 8rem;
-   
 
-    
+
+
 }
 
-#contact-page span{
+#contact-page span {
     margin-bottom: 0;
 }
 
-#contact-page p a{
+#contact-page p a {
     color: #033503;
 
 }
@@ -162,13 +165,13 @@ footer {
     margin-bottom: 4rem;
 }
 
-#social-media i{
+#social-media i {
     color: #000;
 }
 
 
 
-.article{
+.article {
     border-bottom: 1px solid #000;
     padding: 1rem 0.6rem;
 }
@@ -194,18 +197,20 @@ footer {
     text-align: center;
 }
 
-@media(max-width:1000px){
-    header h2{
+@media(max-width:1000px) {
+    header h2 {
         display: none;
 
     }
-}       
-@media(max-width:510px){
-header nav {
-    display: block;
 }
 
-#BANNER {
-    background-size: 200px 200px;
+@media(max-width:510px) {
+    header nav {
+        display: block;
+        font-size: 0.7rem;
+    }
+
+    #banner {
+        background-size: 100px 10px;
+    }
 }
-}       
